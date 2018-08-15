@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Bridge Network Test
+//  BridgeAppSDK-Example
 //
 //  Created by Michael Cooper on 2018-08-14.
 //  Copyright © 2018 Michael Cooper. All rights reserved.

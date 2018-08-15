@@ -7,124 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BCEADD3C21238D220060334D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEADD3B21238D220060334D /* AppDelegate.swift */; };
-		BCEADD3E21238D220060334D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEADD3D21238D220060334D /* ViewController.swift */; };
-		BCEADD4121238D220060334D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEADD3F21238D220060334D /* Main.storyboard */; };
-		BCEADD4321238D240060334D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCEADD4221238D240060334D /* Assets.xcassets */; };
-		BCEADD4621238D240060334D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEADD4421238D240060334D /* LaunchScreen.storyboard */; };
-		BCEADD5021238D580060334D /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEADD4F21238D580060334D /* HealthKit.framework */; };
+		BCFB865F2123A93700808BF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB865E2123A93700808BF8 /* AppDelegate.swift */; };
+		BCFB86612123A93700808BF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFB86602123A93700808BF8 /* ViewController.swift */; };
+		BCFB86642123A93700808BF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFB86622123A93700808BF8 /* Main.storyboard */; };
+		BCFB86662123A93800808BF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCFB86652123A93800808BF8 /* Assets.xcassets */; };
+		BCFB86692123A93800808BF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFB86672123A93800808BF8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BCEADD3821238D220060334D /* Bridge Network Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bridge Network Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCEADD3B21238D220060334D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCEADD3D21238D220060334D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BCEADD4021238D220060334D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BCEADD4221238D240060334D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BCEADD4521238D240060334D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BCEADD4721238D240060334D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BCEADD4D21238D430060334D /* Bridge Network Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Bridge Network Test.entitlements"; sourceTree = "<group>"; };
-		BCEADD4F21238D580060334D /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		BCFB865B2123A93700808BF8 /* BridgeAppSDK-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BridgeAppSDK-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCFB865E2123A93700808BF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCFB86602123A93700808BF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCFB86632123A93700808BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCFB86652123A93800808BF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCFB86682123A93800808BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCFB866A2123A93800808BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BCEADD3521238D220060334D /* Frameworks */ = {
+		BCFB86582123A93700808BF8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCEADD5021238D580060334D /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BCEADD2F21238D220060334D = {
+		BCFB86522123A93700808BF8 = {
 			isa = PBXGroup;
 			children = (
-				BCEADD3A21238D220060334D /* Bridge Network Test */,
-				BCEADD3921238D220060334D /* Products */,
-				BCEADD4E21238D580060334D /* Frameworks */,
+				BCFB865D2123A93700808BF8 /* BridgeAppSDK-Example */,
+				BCFB865C2123A93700808BF8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BCEADD3921238D220060334D /* Products */ = {
+		BCFB865C2123A93700808BF8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BCEADD3821238D220060334D /* Bridge Network Test.app */,
+				BCFB865B2123A93700808BF8 /* BridgeAppSDK-Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BCEADD3A21238D220060334D /* Bridge Network Test */ = {
+		BCFB865D2123A93700808BF8 /* BridgeAppSDK-Example */ = {
 			isa = PBXGroup;
 			children = (
-				BCEADD4D21238D430060334D /* Bridge Network Test.entitlements */,
-				BCEADD3B21238D220060334D /* AppDelegate.swift */,
-				BCEADD3D21238D220060334D /* ViewController.swift */,
-				BCEADD3F21238D220060334D /* Main.storyboard */,
-				BCEADD4221238D240060334D /* Assets.xcassets */,
-				BCEADD4421238D240060334D /* LaunchScreen.storyboard */,
-				BCEADD4721238D240060334D /* Info.plist */,
+				BCFB865E2123A93700808BF8 /* AppDelegate.swift */,
+				BCFB86602123A93700808BF8 /* ViewController.swift */,
+				BCFB86622123A93700808BF8 /* Main.storyboard */,
+				BCFB86652123A93800808BF8 /* Assets.xcassets */,
+				BCFB86672123A93800808BF8 /* LaunchScreen.storyboard */,
+				BCFB866A2123A93800808BF8 /* Info.plist */,
 			);
-			path = "Bridge Network Test";
-			sourceTree = "<group>";
-		};
-		BCEADD4E21238D580060334D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BCEADD4F21238D580060334D /* HealthKit.framework */,
-			);
-			name = Frameworks;
+			path = "BridgeAppSDK-Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BCEADD3721238D220060334D /* Bridge Network Test */ = {
+		BCFB865A2123A93700808BF8 /* BridgeAppSDK-Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BCEADD4A21238D240060334D /* Build configuration list for PBXNativeTarget "Bridge Network Test" */;
+			buildConfigurationList = BCFB866D2123A93800808BF8 /* Build configuration list for PBXNativeTarget "BridgeAppSDK-Example" */;
 			buildPhases = (
-				BCEADD3421238D220060334D /* Sources */,
-				BCEADD3521238D220060334D /* Frameworks */,
-				BCEADD3621238D220060334D /* Resources */,
+				BCFB86572123A93700808BF8 /* Sources */,
+				BCFB86582123A93700808BF8 /* Frameworks */,
+				BCFB86592123A93700808BF8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Bridge Network Test";
-			productName = "Bridge Network Test";
-			productReference = BCEADD3821238D220060334D /* Bridge Network Test.app */;
+			name = "BridgeAppSDK-Example";
+			productName = "BridgeAppSDK-Example";
+			productReference = BCFB865B2123A93700808BF8 /* BridgeAppSDK-Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BCEADD3021238D220060334D /* Project object */ = {
+		BCFB86532123A93700808BF8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Michael Cooper";
 				TargetAttributes = {
-					BCEADD3721238D220060334D = {
+					BCFB865A2123A93700808BF8 = {
 						CreatedOnToolsVersion = 9.4.1;
-						SystemCapabilities = {
-							com.apple.BackgroundModes = {
-								enabled = 1;
-							};
-							com.apple.HealthKit = {
-								enabled = 1;
-							};
-							com.apple.Keychain = {
-								enabled = 1;
-							};
-						};
 					};
 				};
 			};
-			buildConfigurationList = BCEADD3321238D220060334D /* Build configuration list for PBXProject "Bridge Network Test" */;
+			buildConfigurationList = BCFB86562123A93700808BF8 /* Build configuration list for PBXProject "BridgeAppSDK-Example" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,54 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = BCEADD2F21238D220060334D;
-			productRefGroup = BCEADD3921238D220060334D /* Products */;
+			mainGroup = BCFB86522123A93700808BF8;
+			productRefGroup = BCFB865C2123A93700808BF8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BCEADD3721238D220060334D /* Bridge Network Test */,
+				BCFB865A2123A93700808BF8 /* BridgeAppSDK-Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BCEADD3621238D220060334D /* Resources */ = {
+		BCFB86592123A93700808BF8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCEADD4621238D240060334D /* LaunchScreen.storyboard in Resources */,
-				BCEADD4321238D240060334D /* Assets.xcassets in Resources */,
-				BCEADD4121238D220060334D /* Main.storyboard in Resources */,
+				BCFB86692123A93800808BF8 /* LaunchScreen.storyboard in Resources */,
+				BCFB86662123A93800808BF8 /* Assets.xcassets in Resources */,
+				BCFB86642123A93700808BF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BCEADD3421238D220060334D /* Sources */ = {
+		BCFB86572123A93700808BF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCEADD3E21238D220060334D /* ViewController.swift in Sources */,
-				BCEADD3C21238D220060334D /* AppDelegate.swift in Sources */,
+				BCFB86612123A93700808BF8 /* ViewController.swift in Sources */,
+				BCFB865F2123A93700808BF8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BCEADD3F21238D220060334D /* Main.storyboard */ = {
+		BCFB86622123A93700808BF8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BCEADD4021238D220060334D /* Base */,
+				BCFB86632123A93700808BF8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BCEADD4421238D240060334D /* LaunchScreen.storyboard */ = {
+		BCFB86672123A93800808BF8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BCEADD4521238D240060334D /* Base */,
+				BCFB86682123A93800808BF8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -187,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BCEADD4821238D240060334D /* Debug */ = {
+		BCFB866B2123A93800808BF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -247,7 +222,7 @@
 			};
 			name = Debug;
 		};
-		BCEADD4921238D240060334D /* Release */ = {
+		BCFB866C2123A93800808BF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -301,38 +276,36 @@
 			};
 			name = Release;
 		};
-		BCEADD4B21238D240060334D /* Debug */ = {
+		BCFB866E2123A93800808BF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Bridge Network Test/Bridge Network Test.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LCS6D8H6C9;
-				INFOPLIST_FILE = "Bridge Network Test/Info.plist";
+				INFOPLIST_FILE = "BridgeAppSDK-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Cooper.Bridge-Network-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Cooper.BridgeAppSDK-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		BCEADD4C21238D240060334D /* Release */ = {
+		BCFB866F2123A93800808BF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Bridge Network Test/Bridge Network Test.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LCS6D8H6C9;
-				INFOPLIST_FILE = "Bridge Network Test/Info.plist";
+				INFOPLIST_FILE = "BridgeAppSDK-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Cooper.Bridge-Network-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Cooper.BridgeAppSDK-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -342,25 +315,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BCEADD3321238D220060334D /* Build configuration list for PBXProject "Bridge Network Test" */ = {
+		BCFB86562123A93700808BF8 /* Build configuration list for PBXProject "BridgeAppSDK-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BCEADD4821238D240060334D /* Debug */,
-				BCEADD4921238D240060334D /* Release */,
+				BCFB866B2123A93800808BF8 /* Debug */,
+				BCFB866C2123A93800808BF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BCEADD4A21238D240060334D /* Build configuration list for PBXNativeTarget "Bridge Network Test" */ = {
+		BCFB866D2123A93800808BF8 /* Build configuration list for PBXNativeTarget "BridgeAppSDK-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BCEADD4B21238D240060334D /* Debug */,
-				BCEADD4C21238D240060334D /* Release */,
+				BCFB866E2123A93800808BF8 /* Debug */,
+				BCFB866F2123A93800808BF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BCEADD3021238D220060334D /* Project object */;
+	rootObject = BCFB86532123A93700808BF8 /* Project object */;
 }

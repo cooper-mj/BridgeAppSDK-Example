@@ -1,0 +1,6 @@
+[submodule "BridgeAppSDK"]
+	path = BridgeAppSDK
+	url = https://github.com/syoung-smallwisdom/BridgeAppSDK.git
+[submodule "BridgeAppSDK-Example/BridgeAppSDK"]
+	path = BridgeAppSDK-Example/BridgeAppSDK
+	url = https://github.com/syoung-smallwisdom/BridgeAppSDK.git
